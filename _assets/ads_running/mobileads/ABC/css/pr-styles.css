@@ -1,0 +1,255 @@
+#pr-panel-wrapper
+{
+	position:absolute;
+	top:0px;
+	left:50%;
+	background:url(../images/pr-panel-bg.jpg);
+	width:300px;
+	height:250px;
+	margin-left:-150px;
+	overflow: hidden;
+}
+
+#pr-panel-videoholder
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:300px;
+	height:250px;
+	background:black;
+	z-index:90;
+}
+
+#pr-panel-replay
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:30px;
+	height:27px;
+	margin:0px 0px 0px 270px;
+	z-index:90;	
+}
+
+#pr-video
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:91;
+	height:100%;
+}
+
+#pr-panel-tap
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:300px;
+	height:250px;
+	background:url(../images/ABC_Once_300x250_DFT.jpg);
+	z-index:100;
+}
+
+/*#myCanvas
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	margin-left:-100px;
+	width:500px;
+	height:450px;
+	z-index:100;
+	-o-transition:all 5.0s ease-in-out;
+	-ms-transition:all 5.0s ease-in-out;
+	-moz-transition:all 5.0s ease-in-out;
+	-webkit-transition:all 5.0s ease-in-out;
+	transition:all 5.0s ease-in-out;
+}*/
+
+#pr-panel-lightning
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:84px;
+	height:0px;
+	/*height:0px;*/
+	margin:0px 0px 0px 230px;
+	/*opacity:0.7;*/
+	opacity:0.0;
+	background:url(../images/pr-panel-lightning1.png);
+}
+
+#pr-panel-lightning.prStrike
+{
+	animation:prLightning 1.7s 1.0s forwards !important;
+	-webkit-animation:prLightning 1.7s 1.0s forwards !important;
+}
+
+
+@keyframes prLightning
+{
+	0% {opacity:0; height:0px;}
+	6% {opacity:0.7;}
+	13% {opacity:0;}
+	20% {opacity:0.7;}
+	30% {opacity:0;}
+	100% {opacity:0.7; height:100px;}
+}
+
+@-webkit-keyframes prLightning
+{
+	0% {opacity:0; height:0px;}
+	6% {opacity:0.7;}
+	13% {opacity:0;}
+	20% {opacity:0.7;}
+	30% {opacity:0;}
+	100% {opacity:0.7; height:100px;}
+}
+
+#pr-panel-clickbox
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:300px;
+	height:250px;	
+}
+
+#pr-panel-facebook
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:26px;
+	height:30px;
+	margin:2px 0px 0px 8px;
+}
+
+#pr-panel-twitter
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:30px;
+	height:25px;
+	margin:38px 0px 0px 8px;
+}
+
+#pr-panel-tumblr
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:28px;
+	height:30px;
+	margin:72px 0px 0px 8px;
+}
+
+.prRotate
+{
+	animation:prRotate 8.0s forwards !important;
+	-webkit-animation:prRotate 8.0s forwards !important;
+}
+
+@keyframes prRotate
+{
+	0% {
+		margin:163px 0px 0px 55px;
+		opacity:1;
+		transform:rotate(180deg);
+		-ms-transform:rotate(180deg);
+		-webkit-transform:rotate(180deg);
+		}
+	100% {
+		margin:163px 0px 0px 55px;
+		opacity:1;
+		transform:rotate(-360deg);
+		-ms-transform:rotate(-360deg);
+		-webkit-transform:rotate(-360deg);
+		}
+}
+
+@-webkit-keyframes prRotate
+{
+	0% {
+		margin:163px 0px 0px 55px;
+		opacity:1;
+		transform:rotate(180deg);
+		-ms-transform:rotate(180deg);
+		-webkit-transform:rotate(180deg);
+		}
+	100% {
+		margin:163px 0px 0px 55px;
+		opacity:1;
+		transform:rotate(-360deg);
+		-ms-transform:rotate(-360deg);
+		-webkit-transform:rotate(-360deg);
+		}
+}
+
+#pr-panel-flare
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:32px;
+	height:32px;
+	margin:148px 0px 0px 70px;
+	opacity:0;
+	transform:rotate(180deg);
+	-ms-transform:rotate(180deg);
+	-webkit-transform:rotate(180deg);
+	background:url(../images/pr-flare.png);
+	animation:prFlareEnter 0.9s forwards;
+	-webkit-animation:prFlareEnter 0.9s forwards;
+}
+
+@keyframes prFlareEnter
+{
+	0% {
+		margin:148px 0px 0px 70px;
+		opacity:0;
+		transform:rotate(180deg);
+		-ms-transform:rotate(180deg);
+		-webkit-transform:rotate(180deg);
+		}
+	100% {
+		margin:163px 0px 0px 55px;
+		opacity:1;
+		transform:rotate(0deg);
+		-ms-transform:rotate(0deg);
+		-webkit-transform:rotate(0deg);
+		}
+}
+
+@-webkit-keyframes prFlareEnter
+{
+	0% {
+		margin:148px 0px 0px 70px;
+		opacity:0;
+		transform:rotate(180deg);
+		-ms-transform:rotate(180deg);
+		-webkit-transform:rotate(180deg);
+		}
+	100% {
+		margin:163px 0px 0px 55px;
+		opacity:1;
+		transform:rotate(0deg);
+		-ms-transform:rotate(0deg);
+		-webkit-transform:rotate(0deg);
+		}
+}
+
+#pr-panel-date
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:300px;
+	height:59px;
+	margin:191px 0px 0px 0px;
+	background:url(../images/pr-returnsun.png);
+}

@@ -1,0 +1,539 @@
+@charset "UTF-8";
+
+#pr-banner-wrap
+{
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	width: 560px;
+	height: 296px;
+	margin-left:-280px;
+	background: url(../images/pr-banner-bg.jpg);
+}
+
+#pr-wrap{
+	background: #FFF;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+
+	overflow: hidden;
+}
+#pr-test-your-bbq-iq-wrap{
+	background: url(../images/test-your-bbq-iq-wrap-bkg.jpg) no-repeat center center;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: -100%;
+
+	-webkit-transition: left 0.5s ease-out;
+	-moz-transition: left 0.5s ease-out;
+	-o-transition: left 0.5s ease-out;
+	transition: left 0.5s ease-out;
+}
+#pr-test-your-bbq-iq-content-wrap{
+	width: 276px;
+	height: 337px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+
+	margin: -168px 0px 0px -138px;
+}
+
+#pr-bbq-woodblock{
+	background: url(../images/pr-bbq-recipe-bkg.png);
+	width: 276px;
+	height: 173px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -70px 0px 0px -138px;
+}
+
+#pr-bbq-recipe-content-wrap{
+	width: 276px;
+	height: 337px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+
+	margin: -168px 0px 0px -138px;
+}
+
+.pr-icon-cloud{
+	background: url(../images/main-icon-cloud.png) !important;
+	width: 58px;
+	height: 35px;
+	position: absolute;
+}
+.pr-icon-flipflop{
+	background: url(../images/main-icon-flipflop.png) !important;
+	width: 33px;
+	height: 39px;
+	position: absolute;
+}
+.pr-icon-fork{
+	background: url(../images/main-icon-fork.png) !important;
+	width: 42px;
+	height: 24px;
+	position: absolute;
+}
+.pr-icon-grill{
+	background: url(../images/main-icon-grill.png) !important;
+	width: 38px;
+	height: 43px;
+	position: absolute;
+}
+.pr-icon-hotdog{
+	background: url(../images/main-icon-hotdog.png) !important;
+	width: 67px;
+	height: 52px;
+	position: absolute;
+}
+.pr-icon-kabob{
+	background: url(../images/main-icon-kabob.png) !important;
+	width: 70px;
+	height: 40px;
+	position: absolute;
+}
+.pr-icon-onion{
+	background: url(../images/main-icon-onion.png) !important;
+	width: 19px;
+	height: 27px;
+	position: absolute;
+}
+.pr-icon-soda1{
+	background: url(../images/main-icon-soda.png) !important;
+	width: 36px;
+	height: 54px;
+	position: absolute;
+}
+.pr-icon-soda2{
+	background: url(../images/main-icon-soda.png) !important;
+	width: 36px;
+	height: 54px;
+	position: absolute;
+}
+.pr-icon-sunglasses{
+	background: url(../images/main-icon-sunglasses.png) !important;
+	width: 37px;
+	height: 51px;
+	position: absolute;
+}
+.pr-icon-watermelon{
+	background: url(../images/main-icon-watermelon.png) !important;
+	width: 20px;
+	height: 31px;
+	position: absolute;
+}
+
+#pr-test-your-bbq-iq-wrap .pr-icon-cloud{
+	top: -55px;
+	left: 120px;
+}
+#pr-test-your-bbq-iq-wrap .pr-icon-flipflop{
+	top: -40px;
+	left: 270px;
+}
+#pr-test-your-bbq-iq-wrap .pr-icon-fork{
+	top: 50px;
+	left: 280px;
+}
+#pr-test-your-bbq-iq-wrap .pr-icon-grill{
+	top: 20px;
+	left: -50px;
+}
+#pr-test-your-bbq-iq-wrap .pr-icon-hotdog{
+	top: 370px;
+	left: 70px;
+}
+#pr-test-your-bbq-iq-wrap .pr-icon-kabob{
+	top: -60px;
+	left: -20px;
+}
+#pr-test-your-bbq-iq-wrap .pr-icon-onion{
+	top: 350px;
+	left: 290px;
+}
+#pr-test-your-bbq-iq-wrap .pr-icon-soda1{
+	top: 350px;
+	left: -30px;
+}
+#pr-test-your-bbq-iq-wrap .pr-icon-sunglasses{
+	top: 160px;
+	left: -37px;
+}
+#pr-test-your-bbq-iq-wrap .pr-icon-watermelon{
+	top: 165px;
+	left: 275px;
+}
+
+#pr-bbq-recipe-wrap .pr-icon-cloud{
+	top: -55px;
+	left: 120px;
+}
+#pr-bbq-recipe-wrap .pr-icon-flipflop{
+	top: -40px;
+	left: 270px;
+}
+#pr-bbq-recipe-wrap .pr-icon-fork{
+	top: 50px;
+	left: 280px;
+}
+#pr-bbq-recipe-wrap .pr-icon-grill{
+	top: 20px;
+	left: -50px;
+}
+#pr-bbq-recipe-wrap .pr-icon-hotdog{
+	top: 370px;
+	left: 70px;
+}
+#pr-bbq-recipe-wrap .pr-icon-kabob{
+	top: -60px;
+	left: -20px;
+}
+#pr-bbq-recipe-wrap .pr-icon-onion{
+	top: 350px;
+	left: 290px;
+}
+#pr-bbq-recipe-wrap .pr-icon-soda1{
+	top: 350px;
+	left: -30px;
+}
+#pr-bbq-recipe-wrap .pr-icon-sunglasses{
+	top: 160px;
+	left: -37px;
+}
+#pr-bbq-recipe-wrap .pr-icon-watermelon{
+	top: 165px;
+	left: 275px;
+}
+
+
+#pr-bbq-recipe-back-button{
+	background: url(../images/back-button.png);
+	width: 52px;
+	height: 31px;
+	position: absolute;
+	top: 10px;
+	left: 20px;
+
+	opacity: 1;
+	display: block;
+
+	-webkit-transition: opacity 0.5s ease-out;
+	-moz-transition: opacity 0.5s ease-out;
+	-o-transition: opacity 0.5s ease-out;
+	transition: opacity 0.5s ease-out;
+}
+#pr-bbq-recipe-bbq-logo{
+	background: url(../images/bbq-logo.png);
+	width: 174px;
+	height: 76px;
+	position: absolute;
+	top: 0px;
+	left: 50%;
+
+	margin: 0px 0px 0px -55px;
+
+	-webkit-transition: margin 0.5s ease-out;
+	-moz-transition: margin 0.5s ease-out;
+	-o-transition: margin 0.5s ease-out;
+	transition: margin 0.5s ease-out;
+}
+
+
+
+
+#pr-test-your-bbq-iq-back-button{
+	background: url(../images/back-button.png);
+	width: 52px;
+	height: 31px;
+	position: absolute;
+	top: 10px;
+	left: 20px;
+
+	opacity: 0;
+
+	display: none;
+
+	-webkit-transition: opacity 0.5s ease-out;
+	-moz-transition: opacity 0.5s ease-out;
+	-o-transition: opacity 0.5s ease-out;
+	transition: opacity 0.5s ease-out;
+}
+#pr-test-your-bbq-iq-bbq-logo{
+	background: url(../images/bbq-logo.png);
+	width: 174px;
+	height: 76px;
+	position: absolute;
+	top: 0px;
+	left: 50%;
+
+	margin: 0px 0px 0px -87px;
+
+	-webkit-transition: margin 0.5s ease-out;
+	-moz-transition: margin 0.5s ease-out;
+	-o-transition: margin 0.5s ease-out;
+	transition: margin 0.5s ease-out;
+}
+#pr-question-wrap{
+	background: url(../images/question-wrap-bkg.png);
+	width: 275px;
+	height: 209px;
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+
+	margin: 0px 0px 0px -138px;
+
+	-webkit-transition: opacity 0.5s ease-out;
+	-moz-transition: opacity 0.5s ease-out;
+	-o-transition: opacity 0.5s ease-out;
+	transition: opacity 0.5s ease-out;
+}
+#pr-question{
+	width: 94%;
+	height: auto;
+	position: absolute;
+	top: 65px;
+	left: 3%;
+
+	font-family: 'Sue Ellen Francisco';
+	font-size: 30px;
+	color: #FFF;
+	text-align: center;
+	line-height: 38px;
+}
+#pr-true-button{
+	width: 125px;
+	height: 36px;
+	position: absolute;
+	top: 167px;
+	left: 6px;
+}
+#pr-false-button{
+	width: 125px;
+	height: 36px;
+	position: absolute;
+	top: 167px;
+	left: 143px;
+}
+#pr-answer-wrap{
+	background: url(../images/answer-wrap-bkg.png);
+	width: 276px;
+	height: 114px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+
+	margin: -57px 0px 0px -138px;
+
+	opacity: 0;
+
+	display: none;
+
+	-webkit-transition: opacity 0.5s ease-out;
+	-moz-transition: opacity 0.5s ease-out;
+	-o-transition: opacity 0.5s ease-out;
+	transition: opacity 0.5s ease-out;
+}
+#pr-answer{
+	width: 94%;
+	height: auto;
+	position: absolute;
+	top: 50%;
+	left: 3%;
+
+	font-family: Arial, 'Helvetica', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #FFF;
+	text-align: center;
+}
+#pr-more-bbq-iq-tips-button{
+	background: url(../images/more-bbq-iq-tips-button.png);
+	width: 219px;
+	height: 54px;
+	position: absolute;
+	bottom: 0px;
+	left: 50%;
+
+	margin: 0px 0px 0px -109px;
+
+	opacity: 0;
+
+	display: none;
+
+	-webkit-transition: opacity 0.5s ease-out;
+	-moz-transition: opacity 0.5s ease-out;
+	-o-transition: opacity 0.5s ease-out;
+	transition: opacity 0.5s ease-out;
+}
+
+#pr-more-bbq-recipe-button{
+	background: url(../images/pr-bbq-recipes-more-button.png);
+	width: 219px;
+	height: 54px;
+	position: absolute;
+	bottom: 0px;
+	left: 50%;
+	margin: 0px 0px 0px -109px;
+	opacity: 1;
+	display: block;
+
+	-webkit-transition: opacity 0.5s ease-out;
+	-moz-transition: opacity 0.5s ease-out;
+	-o-transition: opacity 0.5s ease-out;
+	transition: opacity 0.5s ease-out;
+}
+
+#pr-main-wrap{
+	background: url(../images/main-wrap-bkg.jpg) no-repeat center center;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0%;
+
+	-webkit-transition: left 0.5s ease-out;
+	-moz-transition: left 0.5s ease-out;
+	-o-transition: left 0.5s ease-out;
+	transition: left 0.5s ease-out;
+}
+#pr-main-content-wrap{
+	background: url(../images/main-content-bkg.png);
+	width: 298px;
+	height: 399px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+
+	margin: -204px 0px 0px -154px;
+}
+
+#pr-main-content-wrap .pr-icon-cloud{
+	top: 20px;
+	left: 90px;
+}
+#pr-main-content-wrap .pr-icon-flipflop{
+	top: -10px;
+	left: 280px;
+}
+#pr-main-content-wrap .pr-icon-fork{
+	top: 350px;
+	left: 0px;
+}
+#pr-main-content-wrap .pr-icon-grill{
+	top: 320px;
+	left: 280px;
+}
+#pr-main-content-wrap .pr-icon-hotdog{
+	top: 390px;
+	left: 70px;
+}
+#pr-main-content-wrap .pr-icon-kabob{
+	top: -45px;
+	left: -20px;
+}
+#pr-main-content-wrap .pr-icon-onion{
+	top: 250px;
+	left: 310px;
+}
+#pr-main-content-wrap .pr-icon-soda1{
+	top: 380px;
+	left: 0px;
+}
+#pr-main-content-wrap .pr-icon-soda2{
+	top: 30px;
+	left: 200px;
+}
+#pr-main-content-wrap .pr-icon-sunglasses{
+	top: 230px;
+	left: -27px;
+}
+#pr-main-content-wrap .pr-icon-watermelon{
+	top: 100px;
+	left: 298px;
+}
+#pr-meat{
+	background: url(../images/meat.png);
+	width: 180px;
+	height: 167px;
+	position: absolute;
+	top: 40px;
+	left: -85px;
+}
+.pr-general{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+#pr-test-your-bbq-iq-button{
+	width: 114px;
+	height: 54px;
+	position: absolute;
+	top: 217px;
+	left: 28px;
+}
+#pr-bbq-recipe-button{
+	width: 114px;
+	height: 54px;
+	position: absolute;
+	top: 217px;
+	left: 163px;
+}
+#pr-test-your-bbq-iq-wrap{
+
+}
+
+#pr-bbq-recipe-wrap{
+	background: url(../images/bbqrecipe-wrap-bkg.jpg) no-repeat center center;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 100%;
+
+	-webkit-transition: left 0.5s ease-out;
+	-moz-transition: left 0.5s ease-out;
+	-o-transition: left 0.5s ease-out;
+	transition: left 0.5s ease-out;
+}
+
+#pr-bbq-recipe-text
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:259px;
+	height:167px;
+	margin:100px 0px 0px 9px;
+	/*background:url(../images/pr-bbq-recipe-1.png);*/
+}
+
+.pr-bbq-recipe-1 {background: url(../images/pr-bbq-recipe-1.png) !important;}
+.pr-bbq-recipe-2 {background: url(../images/pr-bbq-recipe-2.png) !important;}
+.pr-bbq-recipe-3 {background: url(../images/pr-bbq-recipe-3.png) !important;}
+
+
+@font-face {
+  font-family: 'Sue Ellen Francisco';
+  src: url('../fonts/Sue Ellen Francisco.eot');
+  src: url('../fonts/Sue Ellen Francisco.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Sue Ellen Francisco.woff') format('woff'),
+       url('../fonts/Sue Ellen Francisco.ttf')  format('truetype'),
+       url('../fonts/Sue Ellen Francisco.svg#69bcc155970022c8bc79ae1f05ad8770') format('svg');
+       
+  font-style:   normal;
+  font-weight:  400;
+}

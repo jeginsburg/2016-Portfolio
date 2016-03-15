@@ -1,0 +1,943 @@
+/*-------------------------------------------------------*/
+/*------------VDAY PANEL 1 STYLES------------------------*/
+/*-------------------------------------------------------*/
+#pr-vday-panel-wrapper
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:980px;
+	height:480px;
+	overflow:hidden;
+}
+
+#pr-vday-panel-frame1
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:980px;
+	height:480px;
+	background:url(https://speed-s.pointroll.com/PointRoll/Media/Asset/Church&Dwight/197343/custom-panel-bg.png);
+	opacity:1;
+	-o-transition:0.4s all ease-in-out;	-ms-transition:0.4s all ease-in-out; -moz-transition:0.4s all ease-in-out; -webkit-transition:0.4s all ease-in-out; transition:0.4s all ease-in-out;
+}
+
+
+#pr-vday-panel-header
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:980px;
+	height:100px;
+}
+
+#pr-vday-panel-headline
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	font-family: 'Avenir_Medium';
+	font-size:34px;
+	line-height:28px;
+	color:#dc9c37;
+	text-align: center;
+	width:100%;
+	height:68px;
+	margin:42px 0px 0px 0px;
+	/*background:url(https://speed-s.pointroll.com/PointRoll/Media/Asset/Church&Dwight/197343/pr-panel-headline.png);*/
+	background-size:contain;
+}
+
+#pr-vday-panel-close
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:116px;
+	height:39px;
+	margin:5px 0px 0px 860px;
+	z-index:10;
+	background:url(https://speed-s.pointroll.com/PointRoll/Media/Asset/Church&Dwight/197343/pr-panel-close.png);
+}
+
+#pr-vday-panel-questionheader
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:980px;
+	height:136px;
+	margin:0px 0px 0px 0px;
+}
+
+#pr-vday-panel-question1
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:490px;
+	height:136px;
+	margin:0px 0px 0px 0px;
+	background:url(https://speed-s.pointroll.com/PointRoll/Media/Asset/Church&Dwight/197343/question-1.png);
+}
+
+#pr-vday-panel-questiondivider
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:4px;
+	height:38px;
+	margin:10px 0px 0px 380px;
+	background:url(https://speed-s.pointroll.com/PointRoll/Media/Asset/Church&Dwight/197343/pr-panel-headerdivider.png);
+}
+
+#pr-vday-panel-question2
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:490px;
+	height:136px;
+	margin:0px 0px 0px 490px;
+	background:url(https://speed-s.pointroll.com/PointRoll/Media/Asset/Church&Dwight/197343/question-2.png);
+}
+
+
+#pr-vday-panel-option1
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:490px;
+	height:320px;
+	margin:120px 0px 0px 0px;
+}
+
+#pr-vday-panel-answer1-1-box
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:210px;
+	height:99px;
+	margin:10px 0px 0px 20px;
+	background:url(https://speed-s.pointroll.com/PointRoll/Media/Asset/Church&Dwight/197343/adventurous-unchecked.png);
+	background-size:contain;
+	-o-transition:0.2s all ease-in-out;	-ms-transition:0.2s all ease-in-out; -moz-transition:0.2s all ease-in-out; -webkit-transition:0.2s all ease-in-out; transition:0.2s all ease-in-out;
+}
+
+#pr-vday-panel-answer1-1-text
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	font-family: 'Avenir_Medium';
+	font-size:18px;
+	line-height:28px;
+	color:white;
+	width:420px;
+	margin:80px 0px 0px 80px;
+}
+
+#pr-vday-panel-answer1-2-box
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:210px;
+	height:99px;
+	margin:10px 0px 0px 255px;
+	background:url(https://speed-s.pointroll.com/PointRoll/Media/Asset/Church&Dwight/197343/romantic-unchecked.png);
+	background-size:contain;
+	-o-transition:0.2s all ease-in-out;	-ms-transition:0.2s all ease-in-out; -moz-transition:0.2s all ease-in-out; -webkit-transition:0.2s all ease-in-out; transition:0.2s all ease-in-out;
+}
+
+#pr-vday-panel-answer1-2-text
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	font-family: 'Avenir_Medium';
+	font-size:18px;
+	line-height:28px;
+	color:white;
+	width:420px;
+	margin:165px 0px 0px 80px;
+}
+
+#pr-vday-panel-optiondivider
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:2px;
+	height:370px;
+	margin:15px 0px 0px 490px;
+	background:rgba(255, 255, 255, 0.55);
+	background-size:contain;
+}
+
+#pr-vday-panel-option2
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:490px;
+	height:320px;
+	margin:120px 0px 0px 490px;
+}
+
+
+#pr-vday-panel-answer2-1-box
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:210px;
+	height:99px;
+	margin:10px 0px 0px 20px;
+	background:url(https://speed-s.pointroll.com/PointRoll/Media/Asset/Church&Dwight/197343/somethingnew-unchecked.png);
+	background-size:contain;
+	-o-transition:0.2s all ease-in-out;	-ms-transition:0.2s all ease-in-out; -moz-transition:0.2s all ease-in-out; -webkit-transition:0.2s all ease-in-out; transition:0.2s all ease-in-out;
+}
+
+#pr-vday-panel-answer2-1-text
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	font-family: 'Avenir_Medium';
+	font-size:18px;
+	line-height:28px;
+	color:white;
+	width:420px;
+	margin:80px 0px 0px 80px;
+}
+
+#pr-vday-panel-answer2-2-box
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:210px;
+	height:99px;
+	margin:10px 0px 0px 255px;
+	background:url(https://speed-s.pointroll.com/PointRoll/Media/Asset/Church&Dwight/197343/localgem-unchecked.png);
+	background-size:contain;
+	-o-transition:0.2s all ease-in-out;	-ms-transition:0.2s all ease-in-out; -moz-transition:0.2s all ease-in-out; -webkit-transition:0.2s all ease-in-out; transition:0.2s all ease-in-out;
+}
+
+#pr-vday-panel-answer2-2-text
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	font-family: 'Avenir_Medium';
+	font-size:18px;
+	line-height:28px;
+	color:white;
+	width:420px;
+	margin:160px 0px 0px 80px;
+}
+
+#pr-vday-panel-answer2-3-box
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:210px;
+	height:99px;
+	margin:135px 0px 0px 20px;
+	background:url(https://speed-s.pointroll.com/PointRoll/Media/Asset/Church&Dwight/197343/heartracing-unchecked.png);
+	background-size:contain;
+	-o-transition:0.2s all ease-in-out;	-ms-transition:0.2s all ease-in-out; -moz-transition:0.2s all ease-in-out; -webkit-transition:0.2s all ease-in-out; transition:0.2s all ease-in-out;
+}
+
+#pr-vday-panel-answer2-3-text
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	font-family: 'Avenir_Medium';
+	font-size:18px;
+	line-height:28px;
+	color:white;
+	width:420px;
+	margin:80px 0px 0px 380px;
+}
+
+#pr-vday-panel-answer2-4-box
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:30px;
+	height:30px;
+	margin:160px 0px 0px 330px;
+	background:url(https://speed-s.pointroll.com/PointRoll/Media/Asset/Church&Dwight/197343/pr-panel-unchecked.jpg);
+	background-size:contain;
+	-o-transition:0.2s all ease-in-out;	-ms-transition:0.2s all ease-in-out; -moz-transition:0.2s all ease-in-out; -webkit-transition:0.2s all ease-in-out; transition:0.2s all ease-in-out;
+}
+
+#pr-vday-panel-answer2-4-text
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	font-family: 'Avenir_Medium';
+	font-size:18px;
+	line-height:28px;
+	color:white;
+	width:420px;
+	margin:160px 0px 0px 380px;
+}
+
+#pr-vday-panel-answer2-5-box
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:30px;
+	height:30px;
+	margin:80px 0px 0px 630px;
+	background:url(https://speed-s.pointroll.com/PointRoll/Media/Asset/Church&Dwight/197343/pr-panel-unchecked.jpg);
+	background-size:contain;
+	-o-transition:0.2s all ease-in-out;	-ms-transition:0.2s all ease-in-out; -moz-transition:0.2s all ease-in-out; -webkit-transition:0.2s all ease-in-out; transition:0.2s all ease-in-out;
+}
+
+#pr-vday-panel-answer2-5-text
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	font-family: 'Avenir_Medium';
+	font-size:18px;
+	line-height:28px;
+	color:white;
+	width:420px;
+	margin:80px 0px 0px 680px;
+}
+
+#pr-vday-panel-footer
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:980px;
+	height:140px;
+	margin:350px 0px 0px 0px;
+}
+
+#pr-vday-panel-footertext
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	font-family: 'Avenir_Medium';
+	font-size:16px;
+	line-height:20px;
+	color:#dc9c37;
+	width:100%;
+	height:38px;
+	margin:12px 0px 0px 45px;
+	/*background:url(https://speed-s.pointroll.com/PointRoll/Media/Asset/Church&Dwight/197343/pr-panel-bottomheadline.png);*/
+	background-size:contain;
+	display:none;
+}
+
+#pr-vday-panel-footercta
+{
+	position:absolute;
+	top:0px;
+	left:50%;
+	width:236px;
+	height:40px;
+	background:url(https://speed-s.pointroll.com/PointRoll/Media/Asset/Church&Dwight/197343/pr-panel-cta.png) no-repeat;
+	background-size:contain;
+	margin:60px 0px 0px -118px;
+}
+
+#pr-vday-panel-footerlogo
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:280px;
+	height:58px;
+	background:url(https://speed-s.pointroll.com/PointRoll/Media/Asset/Church&Dwight/197343/pr-panel-logo.png);
+	background-size:contain;
+	margin:60px 0px 0px 10px;
+}
+
+
+/*-------------------------------------------------------*/
+/*----------------PANEL 2 STYLES-------------------------*/
+/*-------------------------------------------------------*/
+#pr-vday-panel-frame2
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:1280px;
+	height:680px;
+	background:url(https://speed-s.pointroll.com/PointRoll/Media/Asset/Church&Dwight/197343/vday-panel-bg.png);
+	margin:0px 0px 0px 1280px;
+	opacity:1;
+	-o-transition:0.4s all ease-in-out;	-ms-transition:0.4s all ease-in-out; -moz-transition:0.4s all ease-in-out; -webkit-transition:0.4s all ease-in-out; transition:0.4s all ease-in-out;
+}
+
+#pr-vday-panel-header2
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:1280px;
+	height:680px;
+	background:white;
+}
+
+#pr-vday-panel-headline2
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:980px;
+	height:50px;
+	background:url(https://speed-s.pointroll.com/PointRoll/Media/Asset/Church&Dwight/197343/pr-panel-headline2-short.png);
+}
+
+#pr-vday-panel-close2
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:116px;
+	height:39px;
+	margin:5px 0px 0px 860px;
+	background:url(https://speed-s.pointroll.com/PointRoll/Media/Asset/Church&Dwight/197343/pr-panel-close.png);
+}
+
+#pr-vday-panel-offers
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:980px;
+	height:270px;
+	margin:60px 0px 0px 0px;
+	background:url(https://speed-s.pointroll.com/PointRoll/Media/Asset/Church&Dwight/197343/pr-panel-offers-bg.png);
+}
+
+#pr-vday-panel-left-arrow
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:60px;
+	height:120px;
+	margin:75px 0px 0px 0px;
+	background:url(https://speed-s.pointroll.com/PointRoll/Media/Asset/Church&Dwight/197343/pr-panel-left-arrow.jpg);
+}
+
+#pr-vday-panel-right-arrow
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:60px;
+	height:119px;
+	margin:75px 0px 0px 920px;
+	background:url(https://speed-s.pointroll.com/PointRoll/Media/Asset/Church&Dwight/197343/pr-panel-right-arrow.jpg);
+}
+
+#pr-vday-panel-nodeals
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:1280px;
+	height:111px;
+	margin:75px 0px 0px -150px;
+	background:url(https://speed-s.pointroll.com/PointRoll/Media/Asset/Church&Dwight/197343/pr-no-deals.png);
+	display:none;
+	opacity:0;
+}
+
+#pr-vday-panel-offer-1
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:140px;
+	height:230px;
+	margin:20px 0px 0px 90px;
+	border-radius:10px;
+	box-shadow:0px 0px 5px #000;
+	background:white;
+	overflow:hidden;
+	-o-transition:0.4s all ease-in-out;	-ms-transition:0.4s all ease-in-out; -moz-transition:0.4s all ease-in-out; -webkit-transition:0.4s all ease-in-out; transition:0.4s all ease-in-out;
+}
+
+#pr-vday-panel-offer-1-picture
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:140px;
+	height:115px;
+	margin:0px 0px 0px 0px;
+	background:gray;
+}
+
+#pr-vday-panel-offer-1-title
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:130px;
+	height:25px;
+	font-family:'ArialRoundedBold', sans-serif;
+	text-align:left;
+	color:#0088cc;
+	font-size:15px;
+	text-transform: capitalize;
+	margin:122px 0px 0px 5px;
+}
+
+#pr-vday-panel-offer-1-description
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:130px;
+	height:40px;
+	font-family:Arial, sans-serif;
+	text-align:left;
+	font-size:13px;
+	text-transform: capitalize;
+	margin:156px 0px 0px 5px;
+}
+
+#pr-vday-panel-offer-1-price
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100px;
+	height:100px;
+	font-family:'ArialRoundedBold', sans-serif;
+	color:#f2944c;
+	text-align:right;
+	font-size:25px;
+	margin:198px 0px 0px 34px;
+}
+
+#pr-vday-panel-offer-2
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:140px;
+	height:230px;
+	margin:20px 0px 0px 255px;
+	border-radius:10px;
+	box-shadow:0px 0px 5px #000;
+	background:white;
+	overflow:hidden;
+	-o-transition:0.4s all ease-in-out;	-ms-transition:0.4s all ease-in-out; -moz-transition:0.4s all ease-in-out; -webkit-transition:0.4s all ease-in-out; transition:0.4s all ease-in-out;
+}
+
+#pr-vday-panel-offer-2-picture
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:140px;
+	height:115px;
+	margin:0px 0px 0px 0px;
+	background:gray;
+}
+
+#pr-vday-panel-offer-2-title
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:130px;
+	height:25px;
+	font-family:'ArialRoundedBold', sans-serif;
+	text-align:left;
+	color:#0088cc;
+	font-size:15px;
+	text-transform: capitalize;
+	margin:122px 0px 0px 5px;
+}
+
+#pr-vday-panel-offer-2-description
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:130px;
+	height:40px;
+	font-family:Arial, sans-serif;
+	text-align:left;
+	font-size:13px;
+	text-transform: capitalize;
+	margin:156px 0px 0px 5px;
+}
+
+#pr-vday-panel-offer-2-price
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100px;
+	height:100px;
+	font-family:'ArialRoundedBold', sans-serif;
+	color:#f2944c;
+	text-align:right;
+	font-size:25px;
+	margin:198px 0px 0px 34px;
+}
+
+#pr-vday-panel-offer-3
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:140px;
+	height:230px;
+	margin:20px 0px 0px 420px;
+	border-radius:10px;
+	box-shadow:0px 0px 5px #000;
+	background:white;
+	overflow:hidden;
+	-o-transition:0.4s all ease-in-out;	-ms-transition:0.4s all ease-in-out; -moz-transition:0.4s all ease-in-out; -webkit-transition:0.4s all ease-in-out; transition:0.4s all ease-in-out;
+}
+
+#pr-vday-panel-offer-3-picture
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:140px;
+	height:115px;
+	margin:0px 0px 0px 0px;
+	background:gray;
+}
+
+#pr-vday-panel-offer-3-title
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:130px;
+	height:25px;
+	font-family:'ArialRoundedBold', sans-serif;
+	text-align:left;
+	color:#0088cc;
+	font-size:15px;
+	text-transform: capitalize;
+	margin:122px 0px 0px 5px;
+}
+
+#pr-vday-panel-offer-3-description
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:130px;
+	height:40px;
+	font-family:Arial, sans-serif;
+	text-align:left;
+	font-size:13px;
+	text-transform: capitalize;
+	margin:156px 0px 0px 5px;
+}
+
+#pr-vday-panel-offer-3-price
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100px;
+	height:100px;
+	font-family:'ArialRoundedBold', sans-serif;
+	color:#f2944c;
+	text-align:right;
+	font-size:25px;
+	margin:198px 0px 0px 34px;
+}
+
+#pr-vday-panel-offer-4
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:140px;
+	height:230px;
+	margin:20px 0px 0px 585px;
+	border-radius:10px;
+	box-shadow:0px 0px 5px #000;
+	background:white;
+	overflow:hidden;
+	-o-transition:0.4s all ease-in-out;	-ms-transition:0.4s all ease-in-out; -moz-transition:0.4s all ease-in-out; -webkit-transition:0.4s all ease-in-out; transition:0.4s all ease-in-out;
+}
+
+#pr-vday-panel-offer-4-picture
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:140px;
+	height:115px;
+	margin:0px 0px 0px 0px;
+	background:gray;
+}
+
+#pr-vday-panel-offer-4-title
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:130px;
+	height:25px;
+	font-family:'ArialRoundedBold', sans-serif;
+	text-align:left;
+	color:#0088cc;
+	font-size:15px;
+	text-transform: capitalize;
+	margin:122px 0px 0px 5px;
+}
+
+#pr-vday-panel-offer-4-description
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:130px;
+	height:40px;
+	font-family:Arial, sans-serif;
+	text-align:left;
+	font-size:13px;
+	text-transform: capitalize;
+	margin:156px 0px 0px 5px;
+}
+
+#pr-vday-panel-offer-4-price
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100px;
+	height:100px;
+	font-family:'ArialRoundedBold', sans-serif;
+	color:#f2944c;
+	text-align:right;
+	font-size:25px;
+	margin:198px 0px 0px 34px;
+}
+
+#pr-vday-panel-offer-5
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:140px;
+	height:230px;
+	margin:20px 0px 0px 750px;
+	border-radius:10px;
+	box-shadow:0px 0px 5px #000;
+	background:white;
+	overflow:hidden;
+	-o-transition:0.4s all ease-in-out;	-ms-transition:0.4s all ease-in-out; -moz-transition:0.4s all ease-in-out; -webkit-transition:0.4s all ease-in-out; transition:0.4s all ease-in-out;
+}
+
+#pr-vday-panel-offer-5-picture
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:140px;
+	height:115px;
+	margin:0px 0px 0px 0px;
+	background:gray;
+}
+
+#pr-vday-panel-offer-5-title
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:130px;
+	height:25px;
+	font-family:'ArialRoundedBold', sans-serif;
+	text-align:left;
+	color:#0088cc;
+	font-size:15px;
+	text-transform: capitalize;
+	margin:122px 0px 0px 5px;
+}
+
+#pr-vday-panel-offer-5-description
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:130px;
+	height:40px;
+	font-family:Arial, sans-serif;
+	text-align:left;
+	font-size:13px;
+	text-transform: capitalize;
+	margin:156px 0px 0px 5px;
+}
+
+#pr-vday-panel-offer-5-price
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100px;
+	height:100px;
+	font-family:'ArialRoundedBold', sans-serif;
+	color:#f2944c;
+	text-align:right;
+	font-size:25px;
+	margin:198px 0px 0px 34px;
+}
+
+.money
+{
+	position:absolute;
+	font-size:20px;
+	margin-top:0px;
+	margin-left:-15px;
+}
+
+#pr-vday-panel-footer2
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:980px;
+	height:150px;
+	margin:330px 0px 0px 0px;
+	background:url(https://speed-s.pointroll.com/PointRoll/Media/Asset/Church&Dwight/197343/pr-footer-bg-custom.png);
+}
+
+#pr-vday-panel-footertext2
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:900px;
+	height:100px;
+	margin:20px 0px 0px 30px;
+	font-family: 'Avenir_Medium';
+	font-size:15px;
+	line-height:26px;
+	color:white;
+}
+
+#pr-vday-panel-footercta2
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:320px;
+	height:38px;
+	background:url(https://speed-s.pointroll.com/PointRoll/Media/Asset/Church&Dwight/197343/pr-panel-cta-retailer.png) no-repeat;
+	background-size:contain;
+	margin:83px 0px 0px 30px;
+}
+
+#pr-vday-panel-footerlogo2
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:250px;
+	height:58px;
+	background:url(https://speed-s.pointroll.com/PointRoll/Media/Asset/Church&Dwight/197343/pr-panel-logo.png) no-repeat;
+	background-size:contain;
+	margin:99px 0px 0px 723px;
+}
+
+/*-------------------------------------------------------*/
+/*------------VDAY BANNER STYLES-------------------------*/
+/*-------------------------------------------------------*/
+#pr-vday-banner-wrapper
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:700px;
+	height:120px;
+	background:url(https://speed-s.pointroll.com/PointRoll/Media/Asset/Church&Dwight/197343/vday-banner-wrapper-700x120.jpg);
+}
+
+#pr-vday-banner-generalclick
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:700px;
+	height:120px;
+}
+
+#pr-vday-banner-cta
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:163px;
+	height:35px;
+	margin:69px 0px 0px 257px;
+}
+
+
+/*-------------------------------------------------------*/
+/*----------------------FONTS----------------------------*/
+/*-------------------------------------------------------*/
+@font-face {
+  font-family: 'Avenir_Medium';
+  src: url('https://speed-s.pointroll.com/PointRoll/Media/Asset/Church&Dwight/197343/AvenirLTStd-Medium.eot'); /* IE9 Compat Modes */
+  src: url('https://speed-s.pointroll.com/PointRoll/Media/Asset/Church&Dwight/197343/AvenirLTStd-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('https://speed-s.pointroll.com/PointRoll/Media/Asset/Church&Dwight/197343/AvenirLTStd-Medium.woff') format('woff'), /* Modern Browsers */
+       url('https://speed-s.pointroll.com/PointRoll/Media/Asset/Church&Dwight/197343/AvenirLTStd-Medium.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('https://speed-s.pointroll.com/PointRoll/Media/Asset/Church&Dwight/197343/AvenirLTStd-Medium.svg#ef669aafc9b550b465914779447af056') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+
+@font-face {
+  font-family: 'Avenir_Roman';
+  src: url('https://speed-s.pointroll.com/PointRoll/Media/Asset/Church&Dwight/197343/AvenirLTStd-Heavy.eot'); /* IE9 Compat Modes */
+  src: url('https://speed-s.pointroll.com/PointRoll/Media/Asset/Church&Dwight/197343/AvenirLTStd-Heavy.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('https://speed-s.pointroll.com/PointRoll/Media/Asset/Church&Dwight/197343/AvenirLTStd-Heavy.woff') format('woff'), /* Modern Browsers */
+       url('https://speed-s.pointroll.com/PointRoll/Media/Asset/Church&Dwight/197343/AvenirLTStd-Heavy.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('https://speed-s.pointroll.com/PointRoll/Media/Asset/Church&Dwight/197343/AvenirLTStd-Heavy.svg#a1eb5a5cfcec2ff7c30fe732daf3b2e8') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+
+@font-face {
+  font-family: 'ArialRoundedBold';
+  src: url('https://speed-s.pointroll.com/PointRoll/Media/Asset/Church&Dwight/197343/Arial_Rounded_Bold.eot'); /* IE9 Compat Modes */
+  src: url('https://speed-s.pointroll.com/PointRoll/Media/Asset/Church&Dwight/197343/Arial_Rounded_Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('https://speed-s.pointroll.com/PointRoll/Media/Asset/Church&Dwight/197343/Arial_Rounded_Bold.woff') format('woff'), /* Modern Browsers */
+       url('https://speed-s.pointroll.com/PointRoll/Media/Asset/Church&Dwight/197343/Arial_Rounded_Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('https://speed-s.pointroll.com/PointRoll/Media/Asset/Church&Dwight/197343/Arial_Rounded_Bold.svg#21a05f177bbba8e1aa4912b744621a32') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  700;
+}
+
+

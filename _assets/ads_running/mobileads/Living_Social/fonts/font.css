@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Avenir LT Std 65 Medium';
+  src: url('AvenirLTStd-Medium.eot'); /* IE9 Compat Modes */
+  src: url('AvenirLTStd-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('AvenirLTStd-Medium.woff') format('woff'), /* Modern Browsers */
+       url('AvenirLTStd-Medium.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('AvenirLTStd-Medium.svg#ef669aafc9b550b465914779447af056') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+

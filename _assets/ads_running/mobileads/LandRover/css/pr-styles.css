@@ -1,0 +1,679 @@
+/*10-22-14*/
+#pr-panel-wrapper
+{
+    position:absolute;
+    top:0px;
+    left:50%;
+    width:540px;
+    height:300px;
+    margin-left:-270px;
+    overflow:hidden;
+    background:url(../images/pr-panel-bg-sunny.jpg);
+    background-position:0px;
+    background-size:contain;
+}
+
+#pr-panel-logo
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:90px;
+    height:70px;
+    margin:3px 0px 0px 447px;
+    background:url(../images/pr-panel-logo.png);
+    background-size:contain;
+}
+
+#pr-panel-close
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:18px;
+    height:18px;
+    overflow:hidden;
+    background:url(../images/pr-close.png);
+    background-size:contain;
+    margin:0px 0px 0px 1px;
+    display:none;
+    z-index:10;
+}
+
+#pr-panel-carbody-santoriniblack
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:360px;
+    height:138px;
+    margin:55px 0px 0px 95px;
+    -o-transition:0.4s all ease-in-out; -ms-transition:0.4s all ease-in-out; -moz-transition:0.4s all ease-in-out; -webkit-transition:0.4s all ease-in-out; transition:0.4s all ease-in-out;
+}
+
+#pr-panel-carbody-loireblue
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:360px;
+    height:138px;
+    margin:55px 0px 0px 95px;
+    -o-transition:0.4s all ease-in-out; -ms-transition:0.4s all ease-in-out; -moz-transition:0.4s all ease-in-out; -webkit-transition:0.4s all ease-in-out; transition:0.4s all ease-in-out;
+}
+
+#pr-panel-carbody-fujiwhite
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:360px;
+    height:138px;
+    margin:55px 0px 0px 95px;
+    -o-transition:0.4s all ease-in-out; -ms-transition:0.4s all ease-in-out; -moz-transition:0.4s all ease-in-out; -webkit-transition:0.4s all ease-in-out; transition:0.4s all ease-in-out;
+}
+
+#pr-panel-carbody-firenzered
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:360px;
+    height:138px;
+    margin:55px 0px 0px 95px;
+    -o-transition:0.4s all ease-in-out; -ms-transition:0.4s all ease-in-out; -moz-transition:0.4s all ease-in-out; -webkit-transition:0.4s all ease-in-out; transition:0.4s all ease-in-out;
+}
+
+#pr-panel-carbody-orkneygrey
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:360px;
+    height:138px;
+    margin:55px 0px 0px 95px;
+    -o-transition:0.4s all ease-in-out; -ms-transition:0.4s all ease-in-out; -moz-transition:0.4s all ease-in-out; -webkit-transition:0.4s all ease-in-out; transition:0.4s all ease-in-out;
+}
+
+#pr-panel-carbody-corrisgrey
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:360px;
+    height:138px;
+    margin:55px 0px 0px 95px;
+    -o-transition:0.4s all ease-in-out; -ms-transition:0.4s all ease-in-out; -moz-transition:0.4s all ease-in-out; -webkit-transition:0.4s all ease-in-out; transition:0.4s all ease-in-out;
+}
+
+#pr-panel-carbody-chilered
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:360px;
+    height:138px;
+    margin:55px 0px 0px 95px;
+    -o-transition:0.4s all ease-in-out; -ms-transition:0.4s all ease-in-out; -moz-transition:0.4s all ease-in-out; -webkit-transition:0.4s all ease-in-out; transition:0.4s all ease-in-out;
+}
+
+#pr-panel-carbody-indussilver
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:360px;
+    height:138px;
+    margin:55px 0px 0px 95px;
+    -o-transition:0.4s all ease-in-out; -ms-transition:0.4s all ease-in-out; -moz-transition:0.4s all ease-in-out; -webkit-transition:0.4s all ease-in-out; transition:0.4s all ease-in-out;
+}
+
+#pr-panel-carbody-aleutiansilver
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:360px;
+    height:138px;
+    margin:55px 0px 0px 95px;
+    -o-transition:0.4s all ease-in-out; -ms-transition:0.4s all ease-in-out; -moz-transition:0.4s all ease-in-out; -webkit-transition:0.4s all ease-in-out; transition:0.4s all ease-in-out;
+}
+
+#pr-panel-tires-1
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:360px;
+    height:138px;
+    margin:55px 0px 0px 95px;
+    -o-transition:0.4s all ease-in-out; -ms-transition:0.4s all ease-in-out; -moz-transition:0.4s all ease-in-out; -webkit-transition:0.4s all ease-in-out; transition:0.4s all ease-in-out;
+}
+
+#pr-panel-tires-2
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:360px;
+    height:138px;
+    margin:55px 0px 0px 95px;
+    -o-transition:0.4s all ease-in-out; -ms-transition:0.4s all ease-in-out; -moz-transition:0.4s all ease-in-out; -webkit-transition:0.4s all ease-in-out; transition:0.4s all ease-in-out;
+}
+
+#pr-panel-tires-3
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:360px;
+    height:138px;
+    margin:55px 0px 0px 95px;
+    -o-transition:0.4s all ease-in-out; -ms-transition:0.4s all ease-in-out; -moz-transition:0.4s all ease-in-out; -webkit-transition:0.4s all ease-in-out; transition:0.4s all ease-in-out;
+}
+
+#pr-panel-tires-4
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:360px;
+    height:138px;
+    margin:55px 0px 0px 95px;
+    -o-transition:0.4s all ease-in-out; -ms-transition:0.4s all ease-in-out; -moz-transition:0.4s all ease-in-out; -webkit-transition:0.4s all ease-in-out; transition:0.4s all ease-in-out;
+}
+
+#pr-panel-tires-5
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:360px;
+    height:138px;
+    margin:55px 0px 0px 95px;
+    -o-transition:0.4s all ease-in-out; -ms-transition:0.4s all ease-in-out; -moz-transition:0.4s all ease-in-out; -webkit-transition:0.4s all ease-in-out; transition:0.4s all ease-in-out;
+}
+
+#pr-panel-model
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:300px;
+    height:50px;
+    margin:27px 0px 0px 0px;
+    font-family:'land_rover_ot4medium_', 'Roboto', Arial;
+    font-size:14px;
+    opacity:0;
+    text-transform:uppercase;
+    -o-transition:0.4s all ease-in-out; -ms-transition:0.4s all ease-in-out; -moz-transition:0.4s all ease-in-out; -webkit-transition:0.4s all ease-in-out; transition:0.4s all ease-in-out;
+}
+
+#pr-panel-tagline
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:300px;
+    height:50px;
+    margin:10px 0px 0px 0px;
+    font-family:'land_rover_ot4bold_', 'Roboto', Arial;
+    font-size:14px;
+    opacity:0;
+    text-transform:uppercase;
+    -o-transition:0.4s all ease-in-out; -ms-transition:0.4s all ease-in-out; -moz-transition:0.4s all ease-in-out; -webkit-transition:0.4s all ease-in-out; transition:0.4s all ease-in-out;
+}
+
+#pr-panel-price
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:300px;
+    height:50px;
+    margin:45px 0px 0px 0px;
+    font-family:'land_rover_ot4medium_', 'Roboto', Arial;
+    font-size:13px;
+    opacity:0;
+    text-transform:uppercase;
+    -o-transition:0.4s all ease-in-out; -ms-transition:0.4s all ease-in-out; -moz-transition:0.4s all ease-in-out; -webkit-transition:0.4s all ease-in-out; transition:0.4s all ease-in-out;
+}
+
+#pr-panel-cta
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:300px;
+    height:50px;
+    margin:70px 0px 0px 0px;
+    font-family:'Avenir', 'Roboto', Arial;
+    font-size:10px;
+    z-index:10;
+    opacity:0;
+    text-transform:uppercase;
+    -o-transition:0.4s all ease-in-out; -ms-transition:0.4s all ease-in-out; -moz-transition:0.4s all ease-in-out; -webkit-transition:0.4s all ease-in-out; transition:0.4s all ease-in-out;
+}
+
+#pr-panel-legal-cta
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:200px;
+    height:50px;
+    margin:200px 0px 0px 5px;
+    font-family:'AvenirMedium', 'Roboto', Arial;
+    font-size:10px;
+    color:white;
+    text-transform:uppercase;
+    -o-transition:0.4s all ease-in-out; -ms-transition:0.4s all ease-in-out; -moz-transition:0.4s all ease-in-out; -webkit-transition:0.4s all ease-in-out; transition:0.4s all ease-in-out;
+}
+
+#panel-arrow
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:4px;
+    height:7px;
+    margin:3px 0px 0px -6px;
+    background:url(../images/banner-arrow.png) no-repeat;
+    background-size:contain;
+}
+
+#legal-arrow
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:6px;
+    height:10px;
+    margin:0px 0px 0px 37px;
+    -moz-transform:rotate(90deg);
+    -webkit-transform:rotate(90deg);
+    transform:rotate(90deg);
+    background:url(../images/pr-close.png/banner-arrow-white.png);
+    background-size:contain;
+}
+
+#pr-panel-exterior-btn
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:142px;
+    height:28px;
+    margin:200px 0px 0px 9px;
+    z-index:-1;
+    background:url(../images/exterior-btn-off.png);
+    background-size:contain;
+    display:none;
+    -o-transition:0.4s all ease-in-out; -ms-transition:0.4s all ease-in-out; -moz-transition:0.4s all ease-in-out; -webkit-transition:0.4s all ease-in-out; transition:0.4s all ease-in-out;
+}
+
+#pr-panel-wheels-btn
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:142px;
+    height:28px;
+    margin:200px 0px 0px 149px;
+    z-index:-1;
+    background:url(../images/wheels-btn-off.png);
+    background-size:contain;
+    display:none;
+    -o-transition:0.4s all ease-in-out; -ms-transition:0.4s all ease-in-out; -moz-transition:0.4s all ease-in-out; -webkit-transition:0.4s all ease-in-out; transition:0.4s all ease-in-out;
+}
+
+#pr-panel-legal
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:400px;
+    height:215px;
+    margin:0px 0px 0px -400px;
+    background:rgba(0, 0, 0, 0.7);
+    z-index:11;
+    opacity:0;
+    -o-transition:0.4s all ease-in-out; -ms-transition:0.4s all ease-in-out; -moz-transition:0.4s all ease-in-out; -webkit-transition:0.4s all ease-in-out; transition:0.4s all ease-in-out;
+}
+
+#pr-legal-close
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:27px;
+    height:31px;
+    margin:0px 0px 0px 370px;
+    background:url(../images/pr-legal-close.png);
+    background-size:contain;
+    -o-transition:0.4s all ease-in-out; -ms-transition:0.4s all ease-in-out; -moz-transition:0.4s all ease-in-out; -webkit-transition:0.4s all ease-in-out; transition:0.4s all ease-in-out;
+}
+
+#pr-panel-exterior
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:270px;
+    height:85px;
+    background:white;
+    margin:215px 0px 0px 0px;
+    -o-transition:0.4s all ease-in-out; -ms-transition:0.4s all ease-in-out; -moz-transition:0.4s all ease-in-out; -webkit-transition:0.4s all ease-in-out; transition:0.4s all ease-in-out;
+}
+
+#pr-panel-wheels
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:270px;
+    height:85px;
+    background:white;
+    margin:215px 0px 0px 270px;
+    -o-transition:0.4s all ease-in-out; -ms-transition:0.4s all ease-in-out; -moz-transition:0.4s all ease-in-out; -webkit-transition:0.4s all ease-in-out; transition:0.4s all ease-in-out;
+}
+
+#pr-ext-black
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:32px;
+    height:32px;
+    margin:35px 0px 0px 50px;
+    background:url(../images/exterior-swatch-black.jpg) no-repeat;
+    background-size:contain;
+}
+
+#pr-ext-blue
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:32px;
+    height:32px;
+    margin:35px 0px 0px 95px;
+    background:url(../images/exterior-swatch-blue.jpg) no-repeat;
+    background-size:contain;
+}
+
+#pr-ext-white
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:32px;
+    height:32px;
+    margin:35px 0px 0px 140px;
+    background:url(../images/exterior-swatch-white.jpg) no-repeat;
+    background-size:contain;
+}
+
+#pr-ext-red
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:32px;
+    height:32px;
+    margin:35px 0px 0px 185px;
+    background:url(../images/exterior-swatch-red.jpg) no-repeat;
+    background-size:contain;
+}
+
+#pr-ext-gray
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:32px;
+    height:32px;
+    margin:35px 0px 0px 230px;
+    background:url(../images/exterior-swatch-black.jpg) no-repeat;
+    background-size:contain;
+}
+
+#pr-ext-selected
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:32px;
+    height:4px;
+    margin:72px 0px 0px 100px;
+    background:black;
+    -o-transition:0.4s all ease-in-out; -ms-transition:0.4s all ease-in-out; -moz-transition:0.4s all ease-in-out; -webkit-transition:0.4s all ease-in-out; transition:0.4s all ease-in-out;
+}
+
+#pr-ext-text
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:270px;
+    height:3px;
+    margin:11px 0px 0px 0px;
+    font-family:'AvenirRoman', 'Roboto', Arial;
+    font-size:12px;
+    text-transform:uppercase;
+    color:black;
+    text-align:center;
+}
+
+#pr-wheels-1
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:35px;
+    height:35px;
+    margin:35px 0px 0px 50px;
+    background:url(../images/rre-wheel-1.png);
+    background-size:contain;
+    opacity:0;
+}
+
+#pr-wheels-2
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:35px;
+    height:35px;
+    margin:35px 0px 0px 95px;
+    background:url(../images/rre-wheel-2.png);
+    background-size:contain;
+    opacity:0;
+}
+
+#pr-wheels-3
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:35px;
+    height:35px;
+    margin:35px 0px 0px 140px;
+    background:url(../images/rre-wheel-3.png);
+    background-size:contain;
+    opacity:0;
+}
+
+#pr-wheels-4
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:35px;
+    height:35px;
+    margin:35px 0px 0px 185px;
+    background:url(../images/rre-wheel-4.png);
+    background-size:contain;
+    opacity:0;
+}
+
+#pr-wheels-5
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:35px;
+    height:35px;
+    margin:35px 0px 0px 230px;
+    background:url(../images/rre-wheel-5.png);
+    background-size:contain;
+    opacity:0;
+}
+
+#pr-wheels-selected
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:32px;
+    height:4px;
+    margin:72px 0px 0px 50px;
+    background:black;
+    -o-transition:0.4s all ease-in-out; -ms-transition:0.4s all ease-in-out; -moz-transition:0.4s all ease-in-out; -webkit-transition:0.4s all ease-in-out; transition:0.4s all ease-in-out;
+}
+
+#pr-wheels-text
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:270px;
+    height:3px;
+    margin:11px 0px 0px 0px;
+    font-family:'AvenirRoman', 'Roboto', Arial;
+    font-size:12px;
+    text-transform:uppercase;
+    color:black;
+    text-align:center;
+}
+
+#pr-legal-content
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:370px;
+    height:200px;
+    margin:30px 0px 0px 15px;
+    font-family:'AvenirMedium', 'Roboto', Arial;
+    font-size:11px;
+    line-height:16px;
+    color:white;
+}
+
+#pr-location-div
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    margin:198px 0px 0px 370px;
+    font-family:'AvenirMedium', 'Roboto', Arial;
+    text-transform:capitalize;
+    width:150px;
+    text-align:right;
+    font-size:12px;
+    color:white;
+}
+
+#pr-temperature-div
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    margin:235px 0px 0px 258px;
+    font-family:'AvenirMedium', 'Roboto', Arial;
+    font-size:10px;
+    color:white;
+}
+
+#pr-temperature-icon
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:15px;
+    height:15px;
+    margin:196px 0px 0px 524px;
+    color:white;
+}
+
+
+/*///////////////////////////////////////////////// FONTS /////////////////////////////////////////////////*/
+
+@font-face {
+    font-family: 'land_rover_ot4bold_';
+    src: url('http://speed.pointroll.com/PointRoll/Media/Asset/LandRover/182622/landroverbldl4-webfont.eot');
+    src: url('http://speed.pointroll.com/PointRoll/Media/Asset/LandRover/182622/landroverbldl4-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://speed.pointroll.com/PointRoll/Media/Asset/LandRover/182622/landroverbldl4-webfont.woff') format('woff'),
+         url('http://speed.pointroll.com/PointRoll/Media/Asset/LandRover/182622/landroverbldl4-webfont.ttf') format('truetype'),
+         url('http://speed.pointroll.com/PointRoll/Media/Asset/LandRover/182622/landroverbldl4-webfont.svg#land_rover_ot4bold_') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'land_rover_ot4light_';
+    src: url('http://speed.pointroll.com/PointRoll/Media/Asset/LandRover/182622/landroverlgtl4-webfont.eot');
+    src: url('http://speed.pointroll.com/PointRoll/Media/Asset/LandRover/182622/landroverlgtl4-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://speed.pointroll.com/PointRoll/Media/Asset/LandRover/182622/landroverlgtl4-webfont.woff') format('woff'),
+         url('http://speed.pointroll.com/PointRoll/Media/Asset/LandRover/182622/landroverlgtl4-webfont.ttf') format('truetype'),
+         url('http://speed.pointroll.com/PointRoll/Media/Asset/LandRover/182622/landroverlgtl4-webfont.svg#land_rover_ot4light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'land_rover_ot4medium_';
+    src: url('http://speed.pointroll.com/PointRoll/Media/Asset/LandRover/182622/landrovermedl4-webfont.eot');
+    src: url('http://speed.pointroll.com/PointRoll/Media/Asset/LandRover/182622/landrovermedl4-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://speed.pointroll.com/PointRoll/Media/Asset/LandRover/182622/landrovermedl4-webfont.woff') format('woff'),
+         url('http://speed.pointroll.com/PointRoll/Media/Asset/LandRover/182622/landrovermedl4-webfont.ttf') format('truetype'),
+         url('http://speed.pointroll.com/PointRoll/Media/Asset/LandRover/182622/landrovermedl4-webfont.svg#land_rover_ot4medium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir';
+  src: url('http://speed.pointroll.com/PointRoll/Media/Asset/LandRover/186867/AvenirLTStd-Black.eot'); /* IE9 Compat Modes */
+  src: url('http://speed.pointroll.com/PointRoll/Media/Asset/LandRover/186867/AvenirLTStd-Black.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('http://speed.pointroll.com/PointRoll/Media/Asset/LandRover/186867/AvenirLTStd-Black.woff') format('woff'), /* Modern Browsers */
+       url('http://speed.pointroll.com/PointRoll/Media/Asset/LandRover/186867/AvenirLTStd-Black.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('http://speed.pointroll.com/PointRoll/Media/Asset/LandRover/186867/AvenirLTStd-Black.svg#2d55e36446b90be6f85f84e74f83cb6c') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+
+@font-face {
+  font-family: 'AvenirRoman';
+  src: url('../fonts/AvenirLTStd-Roman.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/AvenirLTStd-Roman.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/AvenirLTStd-Roman.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/AvenirLTStd-Roman.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/AvenirLTStd-Roman.svg#1297092b477b7e1dcddfcf3bbb416185') format('svg'); /* Legacy iOS */       
+  font-style:   normal;
+  font-weight:  400;
+}
+
+@font-face {
+  font-family: 'AvenirMedium';
+  src: url('../fonts/AvenirLTStd-Medium.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/AvenirLTStd-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/AvenirLTStd-Medium.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/AvenirLTStd-Medium.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/AvenirLTStd-Medium.svg#ef669aafc9b550b465914779447af056') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
